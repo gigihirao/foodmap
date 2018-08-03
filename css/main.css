@@ -2,7 +2,6 @@ body{
     max-width: 576px;
     background-color: #f7f7f7;
 }
-
 .page-logo{
     width: 100vw;
     height: 100vh;
@@ -12,7 +11,6 @@ body{
     padding: 0;
     z-index: 10;
 }
-
 h1{
     color: white;
     font-family: 'Lobster', cursive;
@@ -20,20 +18,52 @@ h1{
     line-height: 100vh;
     margin: 0;
     padding: 0;
-    font-size: 100px;
+    font-size: 80px;
 }
-
+header{
+    font-family: 'Lobster', cursive;
+    color: #b0130e;
+    font-size: 40px;
+    text-align: center;
+}
+.filter{
+    text-align: center;
+    margin: 20px;
+}
 .gone{
     display: none;
 }
-
 .images img{
     width: 100px;
     height: 100px;
 }
-
 #map{
     height: 300px;
     margin: 0;
     padding: 0;
+}
+.images{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.modal{
+    font-family: 'Raleway:300';
+}
+h5{
+    font-family: 'Lobster', cursive; 
+    font-size: 25px;
+}
+.btn-primary {
+    background-color: #b0130e;
+    border-color: #b0130e;
+}
+.modal-footer{
+    justify-content: center;
+}
+.description{
+    font-size: 15px;
+}
+.btn{
+    font-size: 1.3rem;
 }
