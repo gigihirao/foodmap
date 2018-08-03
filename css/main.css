@@ -1,1 +1,39 @@
-/*Add your CSS*/
+body{
+    max-width: 576px;
+    background-color: #f7f7f7;
+}
+
+.page-logo{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b0130e;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+
+h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    line-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+}
+
+.gone{
+    display: none;
+}
+
+.images img{
+    width: 100px;
+    height: 100px;
+}
+
+#map{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
